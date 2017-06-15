@@ -3,7 +3,7 @@ import React from 'react';
 import request from 'request';
 import './App.css';
 import audio from './audio.svg';
-const base = 'http://104.236.237.48:8080/api/';
+const base = 'http://localhost:8080/api/';
 var newWord = `hello`
 function options(newWord){
   var path = base + newWord;
