@@ -1,0 +1,15 @@
+.title{
+	color:dodgerblue;
+	font-family:futura,century gothic, sans-serif;
+	text-align:center;
+	margin-top:.1em;
+}
+h1.title{
+	font-size:calc(4vw + 1em);
+	margin-bottom:.1em;
+	transition-duration:1s;
+}
+h2.title{
+	margin-top:0;
+	font-size:calc(2vw + .5em);
+}

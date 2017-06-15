@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:#eee;
+}
+div#searchBox{
+	flex-wrap:wrap;
+	font-family:futura, century gothic, sans-serif;
+	flex-direction:row;
+	display:flex;
+	max-height:300px;
+	max-width:500px;
+	justify-content: center
+
+}
+#searchBox h1{
+	color: #0C3B63;
+}
+#searchBox input{
+	font-size:2em;
+	border-style:none;
+	outline:none;
+	background:#fefeff;
+	color:dodgerblue;
+	font-family:avenir, sans-serif;
+	padding:.1em;
+	text-align:center;
+}
+section#collection{
+	margin:1em;
+}
+div.App{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.defBox{
+	max-width:500px;
+		color:dodgerblue;
+		text-align:center;
+		font-family:futura, century gothic, sans serif;
+		padding:2em;
+	 	margin-bottom:1em;
+	 	background:#fff;
+	 	box-shadow: 1px 1px 1px #888;
+
+}
